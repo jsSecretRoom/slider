@@ -85,6 +85,11 @@ body .decorativ-list .conteinr main .sliders .wraper-conteiner .wraper .carousel
   display: block;
   width: 100%;
 }
+body .decorativ-list .conteinr main .sliders .wraper-conteiner .wraper .carousel .foto-slid .fetchimg, body .decorativ-list .conteinr main .sliders .wraper-conteiner .wraper .carousel .foto-slid .fetchimg2 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 300px;
+}
 @media (min-width: 568px) {
   body .decorativ-list .conteinr main .sliders .wraper-conteiner .wraper .carousel .foto-slid {
     width: 50%;
@@ -100,6 +105,38 @@ body .decorativ-list .conteinr main .sliders .wraper-conteiner .wraper .right {
 }
 body .decorativ-list .conteinr main .sliders .wraper-conteiner .wraper .left {
   left: 20px;
+}
+body .decorativ-list .conteinr main .chac-noris-continer {
+  background-color: rgb(231, 123, 21);
+  border-radius: 10px;
+  margin: 10px 0 0 0;
+}
+body .decorativ-list .conteinr main .chac-noris-continer .chac-noris-rofls {
+  width: 100vw;
+  height: 200px;
+  text-align: center;
+}
+body .decorativ-list .conteinr main .chac-noris-continer .chac-noris-rofls h1 {
+  font-size: 30px;
+}
+body .decorativ-list .conteinr main .chac-noris-continer .chac-noris-rofls .rofl {
+  font-size: 26px;
+  padding: 10px;
+}
+body .decorativ-list .conteinr main .chac-noris-continer .chac-noris-rofls .new-rofl {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(67, 64, 64);
+  font-size: 26px;
+  border-radius: 50px;
+}
+body .decorativ-list .conteinr main .chac-noris-continer .chac-noris-rofls .new-rofl:hover {
+  background-color: rgb(68, 180, 94);
+}
+@media (min-width: 1420px) {
+  body .decorativ-list .conteinr main .chac-noris-continer .chac-noris-rofls {
+    width: 1420px;
+  }
 }
 body .decorativ-list .conteinr footer {
   width: 100vw;
