@@ -85,7 +85,7 @@ body .decorativ-list .conteinr main .sliders .wraper-conteiner .wraper .carousel
   display: block;
   width: 100%;
 }
-body .decorativ-list .conteinr main .sliders .wraper-conteiner .wraper .carousel .foto-slid .fetchimg, body .decorativ-list .conteinr main .sliders .wraper-conteiner .wraper .carousel .foto-slid .fetchimg2 {
+body .decorativ-list .conteinr main .sliders .wraper-conteiner .wraper .carousel .foto-slid .fetchimg {
   -o-object-fit: cover;
      object-fit: cover;
   height: 300px;
@@ -113,7 +113,7 @@ body .decorativ-list .conteinr main .chac-noris-continer {
 }
 body .decorativ-list .conteinr main .chac-noris-continer .chac-noris-rofls {
   width: 100vw;
-  height: 200px;
+  height: 400px;
   text-align: center;
 }
 body .decorativ-list .conteinr main .chac-noris-continer .chac-noris-rofls h1 {
